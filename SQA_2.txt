@@ -1,0 +1,166 @@
+SDLC and STLC:
+
+STLC & SDLC Explained
+
+1. 🌀 SDLC (Software Development Life Cycle)
+
+Definition: SDLC is the process used by the software industry to design, develop, test, and deploy high-quality software. It gives a structured approach to every software project.
+
+💡 Key Phases:
+
+Requirement Gathering: Business analysts and stakeholders discuss what the software should do.
+
+Design: Architects and developers plan how to implement requirements.
+
+Development: Code is written based on the design documents.
+
+Testing: QA team verifies functionality and finds bugs.
+
+Deployment: Application is released to production.
+
+Maintenance: Updates, enhancements, and bug fixes after deployment.
+
+📌 Example: Building an online shopping website — from planning the design, adding features like login and cart, testing, launching it live, and fixing future bugs.
+
+.............................
+
+2. 🔁 STLC (Software Testing Life Cycle)
+
+Definition: STLC defines the testing phases that ensure a software product meets quality standards.
+
+🔍 Key Steps:
+
+Requirement Analysis: QA understands the testing scope from project requirements.
+
+Test Planning: Estimating resources, tools, and timelines.
+
+Test Case Development: Write step-by-step test cases.
+
+Environment Setup: Install apps, tools, databases for test.
+
+Test Execution: Run tests, report bugs.
+
+Test Closure: Final summary, metrics, and lessons learned.
+
+📌 Example: Before testing a flight booking website, QA reviews the feature list, plans what to test, writes login and booking test cases, sets up the server, tests, and then shares a final report.
+
+...........................................................................
+
+Bug Lifecycle
+4. 🧬 Bug Life Cycle
+
+Definition: The journey of a bug from the moment it’s discovered to when it is resolved.
+
+🐞 Bug Stages:
+
+New: QA raises a bug.
+
+Assigned: Dev team is informed.
+
+Open: Devs begin investigation.
+
+Fixed: Code updated.
+
+Retest: QA tests the fix.
+
+Closed: Bug is verified as fixed.
+
+Reopened: If issue still exists.
+
+📌 Example: User unable to log in → Bug is reported → Dev fixes login issue → QA retests → Marked closed if successful.
+
+............................................................
+
+Severity vs Priority
+
+5. 🔥 Severity vs Priority
+
+Severity and Priority are both terms used to classify bugs, but they mean very different things.
+
+Severity refers to how bad the defect is in terms of system impact. It is assessed by QA/testers.
+
+Priority refers to how quickly the defect should be fixed, based on business or release needs. This is usually decided by the product manager or team lead.
+
+Imagine a spelling mistake on a homepage — the app works fine, but it's very visible. That would be Low Severity but High Priority. On the other hand, a crash deep inside a rarely used admin tool could be High Severity but Low Priority.
+
+📈 Examples:
+
+App crash during payment: High Severity, High Priority
+
+Typo in logo: Low Severity, High Priority
+
+Minor bug in admin panel: High Severity, Low Priority
+
+
+.............................................................
+
+Test Case vs Test Scenario
+
+Test Case vs Test Scenario
+A Test Scenario is a high-level description of a feature or functionality that needs to be tested. It defines the overall objective or goal of testing, without going into the specific steps or actions. For example, if the functionality to be tested is "Login Functionality," the test scenario will focus on ensuring that users can log in successfully under different conditions. Test scenarios are broad and cover all possible conditions that need validation, and they help testers think of various situations they need to test.
+
+A Test Case, on the other hand, is a detailed, step-by-step instruction that outlines how to perform the test for a specific scenario. It includes the precise steps, input data, expected results, and actual results. For instance, under the "Login Functionality" scenario, a test case would include detailed actions such as "Step 1: Open the login page," "Step 2: Enter valid username and password," and "Step 3: Click 'Login' button," followed by the expected result, such as "User should be successfully logged in." Test cases are precise and focus on individual test conditions that will be executed to verify the software's behavior.
+
+Think of a test scenario as the goal you aim to achieve (e.g., testing login functionality), while a test case is the roadmap with specific steps to accomplish that goal. The test scenario is like saying, “I want to test if the login works under all conditions,” and the test case is saying, “Here are the exact steps to test it.”
+
+.........................................................................
+7. 🚰 Test Plan & Test Strategy
+
+Test Plan:
+
+Detailed document at project level.
+
+Includes features to be tested, team, schedule, risks.
+
+Written by QA Lead.
+
+Test Strategy:
+
+High-level document at organizational level.
+
+Covers types of testing, tools, levels of testing.
+
+Written by QA Manager.
+
+
+📌 Example: Strategy might say “We use Selenium for UI testing.” Plan details “Who writes Selenium scripts and when.”
+
+.................................................................
+
+📝 What are Test Cases?
+A Test Case is a set of conditions or steps that are created to check if a particular feature or functionality of a software application is working as expected. It is like a checklist that helps testers verify that the software behaves correctly.
+
+Each test case includes:
+
+Test Case ID: A unique identifier for the test case.
+
+Test Description: What the test is meant to check (e.g., login functionality).
+
+Pre-Conditions: Any setup needed before the test (e.g., user must be logged out).
+
+Test Steps: The exact actions to perform during the test (e.g., open login page, enter username and password).
+
+Expected Result: What should happen after performing the steps (e.g., user should be logged in).
+
+Actual Result: What actually happens when the test is executed.
+
+Status: Whether the test passed or failed.
+
+Test cases are crucial for ensuring the software meets its requirements and for finding bugs or issues.
+..........................................................................
+
+Alpha Testing and Beta Testing?
+
+Alpha testing is the first phase of testing that is done by the internal team, such as developers or quality assurance (QA) engineers. It takes place in a controlled environment within the organization, usually before the product is released to any real users. The main goal of alpha testing is to catch bugs and issues early in the development process. This helps ensure the software functions as expected and is stable enough to move on to the next phase.
+
+Beta testing is the second phase and is conducted by actual users outside the development team. It happens after alpha testing and before the final product release. In this phase, the software is tested in a real-world environment to see how it performs under real usage conditions. Beta testing helps gather feedback, uncover any remaining issues, and improve the overall user experience based on real user input. This phase plays a key role in making sure the product is ready for public release.
+
+
+
+
+
+
+
+
+
+
